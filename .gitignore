@@ -1,0 +1,32 @@
+.DS_Store
+.Rhistory
+.RData
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+.matplotlib/
+
+# Local data and model artifacts are not redistributed in this public code repo.
+data/*
+!data/README.md
+results/*
+!results/.gitkeep
+figures/*
+!figures/.gitkeep
+models/
+*.joblib
+*.pkl
+*.pickle
+
+# Office documents, rendered manuscripts, and local review artifacts.
+*.docx
+*.doc
+*.pdf
+*.pptx
+*.xlsx
+*.hwp
+*.odt

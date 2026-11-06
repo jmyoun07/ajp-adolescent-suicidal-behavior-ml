@@ -1,0 +1,22 @@
+﻿predictor,mapping_category
+SEX,Direct mapping
+AGE_M,Derived mapping
+GRADE,Derived mapping
+E_S_RCRD,Derived mapping
+PR_BI,Direct mapping
+adolescent_bmi_category,Derived mapping
+WC_MN,Derived mapping
+M_SAD,Direct mapping
+sleep_daily_min,Derived mapping
+AC_DAYS,Direct mapping
+AC_AMNT,Derived mapping
+AC_DRUNK,Derived mapping
+current_tobacco_type,Derived mapping
+TC_AMNT,Derived mapping
+drug_use_ever,Derived mapping
+PA_TOT,Direct mapping
+PA_MSC,Direct mapping
+F_BR,Direct mapping
+F_FRUIT,Derived mapping
+sweet_drink_freq,Derived mapping
+F_WAT,Derived mapping

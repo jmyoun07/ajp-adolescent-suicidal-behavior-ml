@@ -1,0 +1,41 @@
+﻿변수명,40,28,21,변수내용,값,결측률(결측치),결측처리방법
+SEX,Y,Y,Y,성별,"1=87,109; 2=82,572",0.00% (0),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+AGE_M,Y,Y,Y,월령,연속형; range 144-227; median 198; mean 198.75,0.22% (378),연속형: median imputation + missing indicator; Optuna missingness threshold
+GRADE,Y,Y,Y,학년(중1-고3),"3=46,645; 4=43,295; 5=41,828; 6=37,913",0.00% (0),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+SCHOOL,Y,Y,,학교급,"일반계고=99,663; 중학교=46,645; 특성화계고=21,347","1.19% (2,026)",범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+STYPE,Y,,,학교유형,"남녀공학=108,249; 남학교=30,855; 여학교=30,577",0.00% (0),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+CTYPE,Y,,,도시규모/학교 표본설계 관련 유형,"군지역=13,196; 대도시=73,674; 중소도시=82,811",0.00% (0),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+CITY,Y,,,시도,"강원=6,138; 경기=37,573; 경남=11,085; 경북=8,889; 광주=6,652; 대구=8,739; 대전=6,167; 부산=10,068; 서울=23,915; 세종=2,915; 울산=5,528; 인천=9,690; 전남=6,894; 전북=7,257; 제주=4,186; 충남=7,454; 충북=6,531",0.00% (0),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+E_SES,Y,,,주관적 경제상태,"1=15,870; 2=47,986; 3=83,436; 4=18,374; 5=4,007",0.00% (8),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+E_S_RCRD,Y,Y,Y,학업성적,"1=18,333; 2=39,051; 3=51,311; 4=42,144; 5=18,836",0.00% (6),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+E_RES,Y,Y,,거주형태,"1=158,760; 2=898; 3=1,305; 4=8,017; 5=690",0.01% (11),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+family_composition,Y,,,가족구성,"1=122,072; 2=7,074; 3=3,802; 4=36,733",0.00% (0),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+parental_education,Y,,,부모 교육수준,"1=1,095; 2=26,432; 3=90,660; 4=14,706","21.68% (36,788)",범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+PR_HT,Y,,,주관적 건강 인지,"1=37,088; 2=71,354; 3=43,356; 4=16,682; 5=1,201",0.00% (0),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+PR_BI,Y,Y,Y,주관적 체형 인지,"1=7,895; 2=35,091; 3=60,535; 4=53,389; 5=12,771",0.00% (0),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+adolescent_bmi_category,Y,Y,Y,WHO 2007 BMI-for-age 기준 청소년 BMI 범주,"1=4,901; 2=119,244; 3=29,990; 4=10,910","2.73% (4,636)",범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+WC_MN,Y,Y,Y,최근 30일 동안 체중조절 노력,"1=80,495; 2=57,652; 3=13,275; 4=18,259",0.00% (0),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+I_SCH_TRT,Y,,,학교폭력 치료경험,"1=138,354; 2=31,327",0.00% (0),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+V_TRT,Y,Y,,최근 12개월 동안 폭력으로 인한 병원 치료 경험,"1=166,648; 2=1,279; 3=688; 4=445; 5=164; 6=62; 7=395",0.00% (0),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+M_STR,Y,,,스트레스 인지,"1=18,810; 2=48,401; 3=73,302; 4=24,175; 5=4,993",0.00% (0),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+M_SAD,Y,Y,Y,우울감 경험,"1=123,252; 2=46,429",0.00% (0),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+M_LON,Y,Y,,외로움,"1=34,757; 2=42,932; 3=62,792; 4=22,950; 5=6,250",0.00% (0),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+M_SLP_EN,Y,Y,,수면 충족감,"1=10,119; 2=25,669; 3=53,891; 4=52,408; 5=27,594",0.00% (0),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+sleep_daily_min,Y,Y,Y,일평균 수면시간(분),연속형; range 47.14-891.43; median 385.71; mean 392.26,"9.89% (16,774)",연속형: median imputation + missing indicator; Optuna missingness threshold
+smartphone_daily_min,Y,Y,,일평균 스마트폰 사용시간(분): ((INT_SPWD_TM*5)+(INT_SPWK_TM*2))/7,연속형; range 10-1200; median 291.43; mean 328.33,"4.35% (7,380)",연속형: median imputation + missing indicator; Optuna missingness threshold
+AC_DAYS,Y,Y,Y,최근 30일 음주일수,"1=42,501; 2=14,697; 3=4,393; 4=2,544; 5=1,549; 6=609; 7=419; 9999=102,969",0.00% (0),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+AC_AMNT,Y,Y,Y,최근 30일 음주량,"1=9,718; 2=4,365; 3=2,172; 4=5,237; 5=2,719; 9999=145,470",0.00% (0),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+AC_DRUNK,Y,Y,Y,최근 30일 만취 경험,"1=21,400; 2=1,989; 3=373; 4=449; 9999=145,470",0.00% (0),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+current_tobacco_type,Y,Y,Y,현재 담배제품 사용유형,"0=159,426; 1=7,879; 2=604; 3=1,772",0.00% (0),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+TC_AMNT,Y,Y,Y,최근 30일 흡연량,"1=1,291; 2=772; 3=3,019; 4=2,092; 5=1,557; 6=920; 9999=160,030",0.00% (0),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+secondhand_smoke_any,Y,,,간접흡연 노출,"0=79,726; 1=89,955",0.00% (0),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+drug_use_ever,Y,Y,Y,약물사용 경험,"1=167,539; 2=2,142",0.00% (0),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+PA_TOT,Y,Y,Y,신체활동 총량,"1=60,895; 2=25,329; 3=27,071; 4=20,931; 5=10,641; 6=10,677; 7=4,101; 8=10,036",0.00% (0),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+vigorous_activity_days,Y,Y,,고강도 신체활동일수,"1=58,173; 2=28,523; 3=28,908; 4=19,539; 5=10,507; 6=15,544; 7=2,934; 8=5,512",0.02% (41),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+PA_MSC,Y,Y,Y,근력운동일수,"1=92,395; 2=21,166; 3=15,557; 4=12,610; 5=7,237; 6=8,265; 7=4,980; 8=2,122; 9=5,349",0.00% (0),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+sedentary_daily_min,Y,,,일평균 앉아서 보낸 시간(분),연속형; range 0-1439; median 642.86; mean 640.17,"3.13% (5,319)",연속형: median imputation + missing indicator; Optuna missingness threshold
+F_BR,Y,Y,Y,아침식사 빈도,"1=40,338; 2=13,531; 3=15,848; 4=13,979; 5=11,205; 6=20,552; 7=11,250; 8=42,978",0.00% (0),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+F_FRUIT,Y,Y,Y,과일 섭취 빈도,"1=20,947; 2=58,475; 3=47,052; 4=16,590; 5=16,242; 6=6,502; 7=3,859",0.01% (14),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+sweet_drink_freq,Y,Y,Y,단맛음료 섭취 빈도,"1=16,212; 2=52,903; 3=52,380; 4=22,824; 5=15,575; 6=5,792; 7=3,995",0.00% (0),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+F_FASTFOOD,Y,,,패스트푸드 섭취 빈도,"1=26,726; 2=95,182; 3=37,859; 4=6,447; 5=2,207; 6=599; 7=661",0.00% (0),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
+F_WAT,Y,Y,Y,물 섭취 빈도,"1=6,939; 2=32,862; 3=38,273; 4=29,675; 5=61,932",0.00% (0),범주형: '__MISSING__' 범주 + one-hot; Optuna missingness threshold
